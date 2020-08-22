@@ -31,32 +31,48 @@
                 <input id="number" type="number" placeholder="Enter a number" min="10" max="99">
             </div>
             <div class="form-group">
+                <label id=number-label>Gender:</label>
                 <select id="dropdown">
         <option disabled selected value>Selected</option>
-        <option value = "student">Student</option>
-            <option value = "job">Job</option>
+        <option value = "feminine">Feminine</option>
+            <option value = "neutral">Neutral</option>
+            <option value = "masculine">Masculine</option>
       </select>
 
             </div>
             <div class="form-group">
-                <input type="radio" name="user-recommended" value="yes" class="input-radio">
-                <input type="radio" name="user-recommended" value="no" class="input-radio">
-                <input type="radio" name="user-recommended" value="maybe" class="input-radio">
+                <label id=number-label>What musical genre would you like to learn?:</label>
+                <label class="selec">
+                    <input type="radio" name="user-recommended" value="salsa" class="input-radio">
+                    Salsa
+                </label>
+                <label class="selec">
+                <input type="radio" name="user-recommended" value="urban" class="input-radio">
+            Urban</label>
+                <label class="selec">
+                <input type="radio" name="user-recommended" value="tango" class="input-radio">
+                Tango</label>
             </div>
+
             <div class="form-group">
-                <input name="prefer" value="front-end" type="checkbox">
-                <input name="prefer" value="front-end" type="checkbox">
-                <input name="prefer" value="front-end" type="checkbox">
+                <label id=number-label>Choose three times:</label>
+                <div class="form-group">
+                    <input name="prefer" value="front-end" type="checkbox">
+                    <input name="prefer" value="front-end" type="checkbox">
+                    <input name="prefer" value="front-end" type="checkbox">
+                </div>
             </div>
 
 
 
 
+            <div class="form-group">
+                <label id=number-label>Do you have any doubt or comment?</label>
 
 
-
-            <textarea id="comments" placeholder="Enter your comments"></textarea>
-            <button type="submit" id="submit">submit</button>
+                <textarea id="comments" placeholder="Enter your comments"></textarea>
+                <button type="submit" id="submit">submit</button>
+            </div>
     </div>
 </body>
 

@@ -38,9 +38,23 @@ label {
     ;
 }
 
-input {
+input,
+select {
     width: 100%;
     border-radius: 10px;
     padding: 10px;
     display: flex;
+}
+
+.input-radio {
+    width: auto;
+}
+
+.selec {
+    font-size: 1.1rem;
+}
+
+textarea {
+    width: 100%;
+    height: 5rem;
 }
