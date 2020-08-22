@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1584384689201-e0bcbe2c7f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 5rem;
+}
+
+#description {
+    font-style: oblique;
+}
+
+form {
+    background-color: rgba(65, 74, 160, 0.712);
+    ;
+    padding: 2.5rem;
+    border-radius: 10PX;
+    color: white;
+}
+
+label {
+    display: flex;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin: 15px;
+    ;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}

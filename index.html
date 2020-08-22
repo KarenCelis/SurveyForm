@@ -4,12 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <h1 id=title>Dance courses</h1>
+            <p id="description">This is a form to register for our courses</p>
+        </header>
 
+
+        <form id="survey-form">
+            <div class="form-group">
+                <label id=name-label>Name:</label>
+                <input id="name" type="text" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <label id=email-label>Email:</label>
+                <input id="email" type="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-group">
+                <label id=number-label>Number:</label>
+                <input id="number" type="number" placeholder="Enter a number" min="10" max="99">
+            </div>
+            <div class="form-group">
+                <select id="dropdown">
+        <option disabled selected value>Selected</option>
+        <option value = "student">Student</option>
+            <option value = "job">Job</option>
+      </select>
+
+            </div>
+            <div class="form-group">
+                <input type="radio" name="user-recommended" value="yes" class="input-radio">
+                <input type="radio" name="user-recommended" value="no" class="input-radio">
+                <input type="radio" name="user-recommended" value="maybe" class="input-radio">
+            </div>
+            <div class="form-group">
+                <input name="prefer" value="front-end" type="checkbox">
+                <input name="prefer" value="front-end" type="checkbox">
+                <input name="prefer" value="front-end" type="checkbox">
+            </div>
+
+
+
+
+
+
+
+            <textarea id="comments" placeholder="Enter your comments"></textarea>
+            <button type="submit" id="submit">submit</button>
+    </div>
 </body>
 
 </html>
